@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="start.css">
+        <title>Perez Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <a href="start.html" class="logo">John Aldrin</a>
+
+            <nav>
+                <a href="start.html" class="active">Home</a>
+                <a href="main.html">Personal</a>
+                <a href="second.html">Education</a>
+                <a href="third.html">Skills</a>
+                <a href="fourth.html">Projects</a>
+                <a href="fifth.html">Certificates</a>
+                <a href="sixth.html">Contact</a>
+            </nav>
+
+            <button id="mode-toggle" class="mode-btn">Dark Mode</button>
+        </header>
+        <section class="home">
+            <div class="section-wrapper">
+                <div class="home-img">
+                    <img src = "perez.JPG 1x1.JPG" alt="">
+                </div>
+            
+                <div class="home-content">
+                    <h1>Hi, I'm <span>John Aldrin</span></h1>
+                    <h3 class="typing-text">I'm a <span></span></h3>
+                    <p>I am just a typical nobody who learned some programming languages to create more learnings for my job.
+                        I aim to become a Full Stack Developer to create more projects in various fields in computer programming.
+                        Because for me, coding is fun, not until there is an error on an empty line. 
+                    </p>
+                
+                    <a href="#" class="btn">I'm safe, just hire me!</a>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
